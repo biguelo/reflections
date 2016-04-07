@@ -1,0 +1,7 @@
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+	
+	The staging area is like a middle man between the working directory and
+	the repository. It helps separate files that are been tracked from the
+	one that are not, before commiting then to the repository. 

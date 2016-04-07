@@ -1,0 +1,64 @@
+It was very reveling to practice trying to find a bug in two versions of the same code
+using the File Compare (FC) command on windows. Certainly, when we have a file with a
+lot of lines of code and we want to test something or make changes to a working version of the
+file, it's a good idea to create another version of the original final. But the problem with this
+method is that you can forget the changes done to the old version or the changes could have been
+done by another member of the team.
+
+If we can use a software tool to helps quickly identify the differences between two version
+of the same file, the process of finding the changes that could have caused a bug in the
+new version is much easier. 
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	This method help me a lot because in a long file with hundreds or thousands of lines
+	of code is very difficult to easily find the differences between two files just be 
+	looking at the files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Analyzing the history could help better understand what work and what doesn't,
+    and why.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros: I can control when is the best logical and meaninfull moment to 
+    save a change. I can save different changes when the logic of the program
+    have change. I can decide if the size of the change is adecuate.
+
+    The cons: I could forget to commint an import change. I could lose changes
+    if the system freezes or the computer shuts down unexpectedly. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Version control systems allow saving multiple files in one commit because in
+    a programming or web-development project the multiple files are interconected
+    and changes in one affect the others. Other version control systems don't 
+    worry about saving multiple files at ones, due to the fact that they are not
+    design with software development as their main usability, but for a more general
+    one.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log you can get the history of all the changes to a repository, you
+    get a log ID, the date and time of the commits, and the author. On the other
+    hand, with git diff you can compare two commits using their IDs.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Since version control allows me to get back to previous version of the project,
+    test this older version and compare the changes; then, there is not need to
+    worry about change things and going back to the point of that change.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'll using Git for version control of all my python projects and learning
+    exercises. That will allow me to experiment more with different changes
+    in the code to see which one is best or to record my learning progress.
