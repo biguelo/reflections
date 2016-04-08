@@ -13,3 +13,15 @@ How can you use the staging area to make sure you have one commit per logical ch
 	commited. If the changes to the file are too big or too small, you can remove
 	the file from the staging area and add it again when the changes are the right
 	size.
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+	Branches are helpful when trying to experiment with new features, have a version
+	of the program in other language, to add features to the program that are not
+	part of the main requirement but can be useful to explore.
+
+	Branches can help, because it allows you to create an independent path (version)
+	of the program, is like a new child that inherits from the father (main path)
+	but is looking to have its own history.
+	
