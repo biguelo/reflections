@@ -24,4 +24,9 @@ How would branches help?
 	Branches can help, because it allows you to create an independent path (version)
 	of the program, is like a new child that inherits from the father (main path)
 	but is looking to have its own history.
+
+How do the diagrams help you visualize the branch structure?
 	
+	The diagrams give you a graphical representation of the different branches in the
+	repository, that makes easier to identify the point in time where the
+	branches where created, and which commits were made before and after the branches.
