@@ -30,3 +30,12 @@ How do the diagrams help you visualize the branch structure?
 	The diagrams give you a graphical representation of the different branches in the
 	repository, that makes easier to identify the point in time where the
 	branches where created, and which commits were made before and after the branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's automatic merging is a great tool because it joins to branches without the
+	intervention of the authors, base in a simple and logica set of rules, and in case
+	of any conflict between the versions being merged, it points the author to the conflict
+	so he can deside what is the final version that he wants to keep. On the other hand, 
+	doing merge manually give the author more control but requires more time and merges
+	with small changes in order to allow the author to make the merges avoiding mistakes.  
